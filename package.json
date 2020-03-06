@@ -1,0 +1,24 @@
+{
+  "name": "git-4re",
+  "version": "1.0.0",
+  "description": "UI for git",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "start": "npm run build && electron ./dist/main.js"
+  },
+  "repository": "https://github.com/Th3nion/git-4re",
+  "keywords": [
+    "git",
+    "ui",
+    "4re"
+  ],
+  "author": "Maxime Tournier",
+  "license": "Apache v2",
+  "devDependencies": {
+    "electron": "^6.0.8",
+    "tslint": "^5.19.0",
+    "typescript": "^3.6.0"
+  }
+}
